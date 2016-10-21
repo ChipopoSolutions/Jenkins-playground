@@ -1,6 +1,6 @@
 node('master') {
   echo 'SCM-pipeline Jenkinsfile'
   sh 'pwd'
-  sh 'll'
+  sh 'ls -alh'
   sh 'cat temp.txt'
 }
